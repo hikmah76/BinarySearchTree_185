@@ -146,7 +146,11 @@ int main()
             obj.inorder(obj.ROOT);
             break;
         }
-        case '5';
+        case '5':
+        {
+            return 0;
+            default;
+        }
 
         }
     }
