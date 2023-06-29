@@ -86,7 +86,7 @@ public:
         }
     }
 
-    void preorder(Node* ptr)
+    void postorder(Node* ptr)
     {
         if (ROOT == NULL)
         {
@@ -149,7 +149,7 @@ int main()
         case '5':
         {
             return 0;
-            default;
+        default:
             {
                 cout << "Invalid option" << endl;
                 break;
