@@ -17,5 +17,10 @@ public:
         info = i;
         leftchild = l;
         rightchild = r;
-        
+    }
+};
+ 
+class BinaryTree
+{
+
 };
