@@ -127,13 +127,14 @@ int main()
         {
             cout << "Enter a word: ";
             string word;
-            cin << word;
+            cin >> word;
             obj.insert(word);
             break;
         }
         case '2':
         {
-            obj.
+            obj.inorder(obj.ROOT);
+            break;
         }
         }
     }
